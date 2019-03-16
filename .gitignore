@@ -102,3 +102,18 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Key files
+.pem
+.der
+.key
+.crt
+*_private.py
+
+# AWS IoT download
+aws-iot-files/
+
+# AWS Lambda code with dependencies
+skill_env/
+skill_env.zip
